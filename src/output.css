@@ -177,6 +177,9 @@
   }
 }
 @layer utilities {
+  .mt-1 {
+    margin-top: var(--spacing);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -251,6 +254,9 @@
   }
   .items-center {
     align-items: center;
+  }
+  .items-center-safe {
+    align-items: safe center;
   }
   .justify-around {
     justify-content: space-around;
